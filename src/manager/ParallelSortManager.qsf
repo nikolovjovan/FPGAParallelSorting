@@ -1,0 +1,168 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2014 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.4 Build 182 03/12/2014 SJ Web Edition
+# Date created = 17:11:07  January 24, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ParallelSortManager_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C16F484C6
+set_global_assignment -name TOP_LEVEL_ENTITY ParallelSortManager
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:11:07  JANUARY 24, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_G21 -to CLK
+set_location_assignment PIN_P22 -to PS2_CLK
+set_location_assignment PIN_P21 -to PS2_DATA
+set_location_assignment PIN_B1 -to LED[9]
+set_location_assignment PIN_B2 -to LED[8]
+set_location_assignment PIN_C2 -to LED[7]
+set_location_assignment PIN_C1 -to LED[6]
+set_location_assignment PIN_E1 -to LED[5]
+set_location_assignment PIN_F2 -to LED[4]
+set_location_assignment PIN_H1 -to LED[3]
+set_location_assignment PIN_J3 -to LED[2]
+set_location_assignment PIN_J2 -to LED[1]
+set_location_assignment PIN_J1 -to LED[0]
+set_location_assignment PIN_B18 -to HEX3[7]
+set_location_assignment PIN_F15 -to HEX3[6]
+set_location_assignment PIN_A19 -to HEX3[5]
+set_location_assignment PIN_B19 -to HEX3[4]
+set_location_assignment PIN_C19 -to HEX3[3]
+set_location_assignment PIN_D19 -to HEX3[2]
+set_location_assignment PIN_G15 -to HEX3[1]
+set_location_assignment PIN_G16 -to HEX3[0]
+set_location_assignment PIN_D15 -to HEX2[7]
+set_location_assignment PIN_A16 -to HEX2[6]
+set_location_assignment PIN_B16 -to HEX2[5]
+set_location_assignment PIN_E15 -to HEX2[4]
+set_location_assignment PIN_A17 -to HEX2[3]
+set_location_assignment PIN_B17 -to HEX2[2]
+set_location_assignment PIN_F14 -to HEX2[1]
+set_location_assignment PIN_A18 -to HEX2[0]
+set_location_assignment PIN_A13 -to HEX1[7]
+set_location_assignment PIN_B13 -to HEX1[6]
+set_location_assignment PIN_C13 -to HEX1[5]
+set_location_assignment PIN_A14 -to HEX1[4]
+set_location_assignment PIN_B14 -to HEX1[3]
+set_location_assignment PIN_E14 -to HEX1[2]
+set_location_assignment PIN_A15 -to HEX1[1]
+set_location_assignment PIN_B15 -to HEX1[0]
+set_location_assignment PIN_E11 -to HEX0[7]
+set_location_assignment PIN_F11 -to HEX0[6]
+set_location_assignment PIN_H12 -to HEX0[5]
+set_location_assignment PIN_H13 -to HEX0[4]
+set_location_assignment PIN_G12 -to HEX0[3]
+set_location_assignment PIN_F12 -to HEX0[2]
+set_location_assignment PIN_F13 -to HEX0[1]
+set_location_assignment PIN_D13 -to HEX0[0]
+set_location_assignment PIN_AB16 -to SAB
+set_location_assignment PIN_AA16 -to CAB
+set_location_assignment PIN_AA15 -to SBA
+set_location_assignment PIN_AB15 -to CBA
+set_location_assignment PIN_AA14 -to SAC
+set_location_assignment PIN_AB14 -to CAC
+set_location_assignment PIN_AB13 -to SCA
+set_location_assignment PIN_AA13 -to CCA
+set_location_assignment PIN_AA20 -to data_outB[0]
+set_location_assignment PIN_AB20 -to data_outB[1]
+set_location_assignment PIN_AA19 -to data_outB[2]
+set_location_assignment PIN_AB19 -to data_outB[3]
+set_location_assignment PIN_AB18 -to data_outB[4]
+set_location_assignment PIN_AA18 -to data_outB[5]
+set_location_assignment PIN_AA17 -to data_outB[6]
+set_location_assignment PIN_AB17 -to data_outB[7]
+set_location_assignment PIN_Y17 -to dataB[0]
+set_location_assignment PIN_W17 -to dataB[1]
+set_location_assignment PIN_U15 -to dataB[2]
+set_location_assignment PIN_T15 -to dataB[3]
+set_location_assignment PIN_W15 -to dataB[4]
+set_location_assignment PIN_V15 -to dataB[5]
+set_location_assignment PIN_AB9 -to dataB[6]
+set_location_assignment PIN_AA9 -to dataB[7]
+set_location_assignment PIN_AA7 -to data_outC[0]
+set_location_assignment PIN_AB7 -to data_outC[1]
+set_location_assignment PIN_T14 -to data_outC[2]
+set_location_assignment PIN_R14 -to data_outC[3]
+set_location_assignment PIN_U12 -to data_outC[4]
+set_location_assignment PIN_T12 -to data_outC[5]
+set_location_assignment PIN_R11 -to data_outC[6]
+set_location_assignment PIN_R12 -to data_outC[7]
+set_location_assignment PIN_U10 -to dataC[0]
+set_location_assignment PIN_T10 -to dataC[1]
+set_location_assignment PIN_U9 -to dataC[2]
+set_location_assignment PIN_T9 -to dataC[3]
+set_location_assignment PIN_Y7 -to dataC[4]
+set_location_assignment PIN_U8 -to dataC[5]
+set_location_assignment PIN_V6 -to dataC[6]
+set_location_assignment PIN_V7 -to dataC[7]
+set_global_assignment -name SYNTH_TIMING_DRIVEN_SYNTHESIS ON
+set_global_assignment -name BLOCK_DESIGN_NAMING AUTO
+set_global_assignment -name VHDL_FILE CDX.vhd
+set_global_assignment -name VHDL_FILE CONSTX.vhd
+set_global_assignment -name VHDL_FILE CMPX.vhd
+set_global_assignment -name VHDL_FILE DCX.vhd
+set_global_assignment -name VHDL_FILE MP2X.vhd
+set_global_assignment -name VHDL_FILE MP4X.vhd
+set_global_assignment -name VHDL_FILE REGX.vhd
+set_global_assignment -name VHDL_FILE SEL4.vhd
+set_global_assignment -name VHDL_FILE TGL.vhd
+set_global_assignment -name BDF_FILE Debouncer.bdf
+set_global_assignment -name BDF_FILE RisingEdge.bdf
+set_global_assignment -name BDF_FILE KeyboardInterface.bdf
+set_global_assignment -name VHDL_FILE KeyDetector.vhd
+set_global_assignment -name VHDL_FILE DigitDetector.vhd
+set_global_assignment -name VHDL_FILE SevenSegmentCharInterface.vhd
+set_global_assignment -name VHDL_FILE SevenSegmentDigitInterface.vhd
+set_global_assignment -name VHDL_FILE MEM8B.vhd
+set_global_assignment -name SOURCE_FILE MEM8B.cmp
+set_global_assignment -name QIP_FILE MEM8B.qip
+set_global_assignment -name VHDL_FILE SendCSG.vhd
+set_global_assignment -name BDF_FILE Send.bdf
+set_global_assignment -name VHDL_FILE MergeCSG.vhd
+set_global_assignment -name BDF_FILE Merge.bdf
+set_global_assignment -name VHDL_FILE MainCSG.vhd
+set_global_assignment -name BDF_FILE ParallelSortManager.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,134 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2014 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 264 208)
+	(text "Send" (rect 5 0 40 16)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 173 31 188)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 29 16)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 27 50 43)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "EN" (rect 0 0 21 16)(font "Arial" (font_size 8)))
+		(text "EN" (rect 21 43 42 59)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "N[11..0]" (rect 0 0 54 16)(font "Arial" (font_size 8)))
+		(text "N[11..0]" (rect 21 59 75 75)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "mem_out[7..0]" (rect 0 0 99 16)(font "Arial" (font_size 8)))
+		(text "mem_out[7..0]" (rect 21 75 120 91)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "SBA" (rect 0 0 31 16)(font "Arial" (font_size 8)))
+		(text "SBA" (rect 21 91 52 107)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "SCA" (rect 0 0 31 16)(font "Arial" (font_size 8)))
+		(text "SCA" (rect 21 107 52 123)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "CBA" (rect 0 0 31 16)(font "Arial" (font_size 8)))
+		(text "CBA" (rect 21 123 52 139)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "CCA" (rect 0 0 31 16)(font "Arial" (font_size 8)))
+		(text "CCA" (rect 21 139 52 155)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 248 32)
+		(output)
+		(text "SAB" (rect 0 0 31 16)(font "Arial" (font_size 8)))
+		(text "SAB" (rect 196 27 227 43)(font "Arial" (font_size 8)))
+		(line (pt 248 32)(pt 232 32))
+	)
+	(port
+		(pt 248 48)
+		(output)
+		(text "SAC" (rect 0 0 31 16)(font "Arial" (font_size 8)))
+		(text "SAC" (rect 196 43 227 59)(font "Arial" (font_size 8)))
+		(line (pt 248 48)(pt 232 48))
+	)
+	(port
+		(pt 248 64)
+		(output)
+		(text "CAB" (rect 0 0 31 16)(font "Arial" (font_size 8)))
+		(text "CAB" (rect 196 59 227 75)(font "Arial" (font_size 8)))
+		(line (pt 248 64)(pt 232 64))
+	)
+	(port
+		(pt 248 80)
+		(output)
+		(text "CAC" (rect 0 0 31 16)(font "Arial" (font_size 8)))
+		(text "CAC" (rect 196 75 227 91)(font "Arial" (font_size 8)))
+		(line (pt 248 80)(pt 232 80))
+	)
+	(port
+		(pt 248 96)
+		(output)
+		(text "address[11..0]" (rect 0 0 97 16)(font "Arial" (font_size 8)))
+		(text "address[11..0]" (rect 130 91 227 107)(font "Arial" (font_size 8)))
+		(line (pt 248 96)(pt 232 96)(line_width 3))
+	)
+	(port
+		(pt 248 112)
+		(output)
+		(text "data_out[7..0]" (rect 0 0 94 16)(font "Arial" (font_size 8)))
+		(text "data_out[7..0]" (rect 133 107 227 123)(font "Arial" (font_size 8)))
+		(line (pt 248 112)(pt 232 112)(line_width 3))
+	)
+	(port
+		(pt 248 128)
+		(output)
+		(text "done" (rect 0 0 33 16)(font "Arial" (font_size 8)))
+		(text "done" (rect 194 123 227 139)(font "Arial" (font_size 8)))
+		(line (pt 248 128)(pt 232 128))
+	)
+	(drawing
+		(rectangle (rect 16 16 232 176))
+	)
+)
